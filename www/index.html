@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+      <title>Распродажа ковров</title>
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	  <meta name="description" content="Интернет магазин по продаже ковров."/>
+	  <meta name="keywords" content="Купить ковер дешево,купить ковер"/>
+	  <link type="text/css" rel="stylesheet" href="style/style.css"> 
+</head>
+<body>
+<div id="allcontent">
+	<div class="header">
+	<div class="leftheader" >
+		<div class="title">
+			<p class="bold">Магазин ковров</p>
+			<p class="normal"> kover-ideal.ru</p>
+		</div>
+		<div class="tel" >
+			<img src="img/tel.png" alt="телефон" /> 
+			<p class="size50">Заказ по телефону с 9:00 до 19:00</p>
+			<p class="size100"> 8-800-77-55-904</p>
+		</div>
+	</div>	
+	<div class="centerrheader">
+	<a href="index.php" >
+	<img src="img/logo.png" alt="Середина шапки" />
+	</a>
+		<div class="zvonok">
+			<a href="#" >
+			<table>
+			<tr>
+			<td><div class="zakleft"></div></td>
+			<td><span>Заказать звонок</span></td>
+			<td><div class="zakright"></div></td>
+			 
+			</tr>
+			</table>
+			</a>
+		</div>
+	</div>
+	<div class="rightheader" >
+		<a href="#" class="imgkorzina">
+		<img src="img/korzina.png" alt="Корзина" /></a>
+		<a href="#"> <p class="korzina">Корзина </p>
+		
+		<p> <span id ="koltovara"> 0 </span> товаров </p>
+		<p> <span id ="kolmani"> 0 </span> рублей </p>
+		</a>
+	</div>
+	
+	<div class="menu">
+		<ul>
+			<li>
+			<a href="index.html"><span>На главную</span></a>
+			</li>
+			<li>
+			<a href="#"><span>Советы по уходу</span></a>
+			</li>
+			<li>
+			<a href="#"><span>Акции</span></a>
+			</li>
+			<li>
+			<a href="#"><span>О нас</span></a>
+			</li>
+			<li>
+			<a href="#"><span>Доставка</span></a>
+			</li>
+			<li>
+			<a href="#"><span>Контакты</span></a>
+			</li>
+			<li>
+			<div id="search" >
+				<form name="search" action="#" method="get">
+				
+					<input type="text" name="poisk" class="search" value="Поиск">
+				</form>
+			
+			</div>
+			</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+<div class="clear"></div>
+</div>	 
+	 <div class="content">
+		<div class="leftmenu">
+			<div class="zagalovokmenu">
+			<h3> <span>Поиск по параметрам</span> </h3>
+			</div>
+			<div class="items">
+				<ul>
+					<li>
+					<span> Цена </span>
+					</li>
+					<li>
+						<label>От </label>
+						<select name="mani" >
+							<option value="0" ><span >0 р.</span></option>
+							<option value="500" ><span>500 р.</span></option>
+							<option value="1500" ><span>1500 р.</span></option>
+							<option value="2500" ><span>2500 р.</span></option>
+							<option value="3500" ><span>3500 р.</span></option>
+							<option value="4500" ><span>4500 р.</span></option>
+							<option value="5500" ><span>5500 р.</span></option>
+							<option value="6500" ><span>6500 р.</span></option>
+							<option value="7500" ><span>7500 р.</span></option>
+							<option value="8500" ><span>8500 р.</span></option>
+							<option value="9500" ><span>9500 р.</span></option>
+							<option value="35500" ><span>35500 р.</span></option>
+							
+						</select>
+						
+						<label>До </label>
+						<select name="mani">
+							<option value="35500" >35500 р.</option>
+							<option value="500" >500 р.</option>
+							<option value="1500" >1500 р.</option>
+							<option value="2500" >2500 р.</option>
+							<option value="3500" >3500 р.</option>
+							<option value="4500" >4500 р.</option>
+							<option value="5500" >5500 р.</option>
+							<option value="6500" >6500 р.</option>
+							<option value="7500" >7500 р.</option>
+							<option value="8500" >8500 р.</option>
+							<option value="9500" >9500 р.</option>
+							<option value="35500" >35500 р.</option>
+						</select>
+					</li>
+					<li> 
+						<label>Форма</label>
+					</li>
+					<li>
+						<select name="form">
+							<option value="1" >Все</option>
+							<option value="1" >Квадратная</option>
+							<option value="2" >Ковровая дорожка</option>
+							<option value="3" >Круглая</option>
+							<option value="4" >Овальная</option>
+							<option value="5" >Прямоугольная</option>
+							<option value="6" >Нестандартная</option>
+						</select>
+					</li>
+					<li>
+						<label>Способ производства</label>
+					</li>
+					<li>
+						<select name="proizvod">
+							<option value="1" >Любые</option>
+							<option value="1" >Машинный</option>
+							<option value="2" >Ручной</option>
+						</select>
+					</li>
+					<li>
+						<label>Материал ворса</label>
+					</li>
+					<li>
+						<select name="vors">
+							<option value="1" >Все</option>
+							<option value="1" >акрил</option>
+							<option value="2" >вискоза</option>
+							<option value="3" >мех</option>
+							<option value="4" >полипропилен</option>
+							<option value="5" >полиамид</option>
+							<option value="7" >полиэстер</option>
+							<option value="8" >хлопок</option>
+							<option value="9" >шелк</option>
+							<option value="10" >шерсть</option>
+						</select>
+					</li>
+					<li>
+					<span> Ширина </span>
+					</li>
+					<li>
+						<label>От </label>
+						<select name="width">
+							<option value="1" >1 м</option>
+							<option value="2" >2 м</option>
+							<option value="3" >3 м</option>
+							<option value="4" >4 м</option>
+							<option value="5" >5 м</option>
+							<option value="6" >6 м</option>
+						</select>
+						
+						<label>До </label>
+						<select name="width">
+							<option value="6" >6 м</option>
+							<option value="2" >2 м</option>
+							<option value="3" >3 м</option>
+							<option value="4" >4 м</option>
+							<option value="5" >5 м</option>
+							<option value="6" >6 м</option>
+						</select>
+					</li>
+					<li>
+						<span> Высота </span>
+					</li>
+					<li>
+						<label>От </label>
+						<select name="height">
+							<option value="1" >1 м</option>
+							<option value="2" >2 м</option>
+							<option value="3" >3 м</option>
+							<option value="4" >4 м</option>
+							<option value="5" >5 м</option>
+							<option value="6" >6 м</option>
+						</select>
+						
+						<label>До </label>
+						<select name="height">
+							<option value="6" >6 м</option>
+							<option value="2" >2 м</option>
+							<option value="3" >3 м</option>
+							<option value="4" >4 м</option>
+							<option value="5" >5 м</option>
+							<option value="6" >6 м</option>
+						</select>
+					</li>
+				</ul>
+				<div class="podbor" >
+						<a href="#" ><span>Подобрать</span></a>
+						</div>
+			</div>
+
+		</div>
+		
+		<div class="tovar">
+		
+			<div class="headtovar" >
+			
+				<div class="headtovartitle"> <span> Просмотр товара </span> </div>
+				<div id="sort">
+					<table>
+						<tr>
+							<td> <div > <span>Сортировать по :</span> </div> </td>
+							<td><select name="sort">
+							<option value="1" >цене</option>
+							<option value="2" >ширине</option>
+							<option value="3" >высоте</option>
+							<option value="4" >материалу ворса</option>
+							<option value="5" >форме</option>
+							</select></td>
+							<td> <select name="sortst">
+							<option value="1" >возрастанию</option>
+							<option value="2" >убыванию</option>
+							</select> </td>
+							<td> <a href="#" ><span>Да</span></a></td>
+						</tr>
+					</table>
+					</div>
+					<div id="tovarnavig">
+					<table >
+						<tr>
+							<td> <a href="#"><span>В начало</span></a></td>
+							<td> <a href="#"><span>Предыдущая</span></a></td>
+							<td> <a href="#"><span>1</span></a></td>
+							<td> <a href="#"><span>2</span></a></td>
+							<td> <a href="#"><span>3</span></a></td>
+							<td> <a href="#"><span>4</span></a></td>
+							<td> <a href="#"><span>5</span></a></td>
+							<td> <a href="#"><span>6</span></a></td>
+							<td> <a href="#"><span>Следующая</span></a></td>
+							<td> <a href="#"><span>В конец</span></a></td>
+						</tr>
+					</table>
+					</div>
+					<table class="product">
+						<tr>
+						
+							<td >
+								<div class="iproduct">
+								<div class="iproductoption"> 
+								<p>Кирбаc </p>
+								</div>
+								<a href="#" >
+									<p id="tovarimg"> <img src="img/tovar/tovar.jpeg" alt="Ковер" /></p>
+									
+									
+								
+								<div class="iproductinfo">
+									<p>Цена: <span>500</span>р.</p>
+									<p>Форма: <span>квадратная</span></p>
+									<p>Способ пр: <span>ручной</span></p>
+									<p>Ворс: <span>шерсть</span></p>
+									<p>Ширина: <span>2</span>м.</p>
+									<p>Высота: <span>3</span>м.</p>
+									<p>Артикул:№ <span>54758</span></p>
+									</a>
+									
+								</div>
+									<p> <a href="#"><div class="vkorziny"> <span>В корзину</span></div><a/></p>								
+								</div>
+							</td>
+							
+							<td >
+								<div class="iproduct">
+								<div class="iproductoption"> 
+								<p>Кирбаc </p>
+								</div>
+								<a href="#" >
+									<p id="tovarimg"> <img src="img/tovar/tovar.jpeg" alt="Ковер" /></p>
+									
+									
+								
+								<div class="iproductinfo">
+									<p>Цена: <span>500</span>р.</p>
+									<p>Форма: <span>квадратная</span></p>
+									<p>Способ пр: <span>ручной</span></p>
+									<p>Ворс: <span>шерсть</span></p>
+									<p>Ширина: <span>2</span>м.</p>
+									<p>Высота: <span>3</span>м.</p>
+									<p>Артикул:№ <span>54758</span></p>
+									</a>
+									
+								</div>
+									<p> <a href="#"><div class="vkorziny"> <span>В корзину</span></div><a/></p>								
+								</div>
+							</td>
+							<td >
+								<div class="iproduct">
+								<div class="iproductoption"> 
+								<p>Кирбаc </p>
+								</div>
+								<a href="#" >
+									<p id="tovarimg"> <img src="img/tovar/tovar.jpeg" alt="Ковер" /></p>
+									
+									
+								
+								<div class="iproductinfo">
+									<p>Цена: <span>500</span>р.</p>
+									<p>Форма: <span>квадратная</span></p>
+									<p>Способ пр: <span>ручной</span></p>
+									<p>Ворс: <span>шерсть</span></p>
+									<p>Ширина: <span>2</span>м.</p>
+									<p>Высота: <span>3</span>м.</p>
+									<p>Артикул:№ <span>54758</span></p>
+									</a>
+									
+								</div>
+									<p> <a href="#"><div class="vkorziny"> <span>В корзину</span></div><a/></p>								
+								</div>
+							</td>
+
+						</tr>
+						
+						<tr>
+						
+							<td >
+								<div class="iproduct">
+								<div class="iproductoption"> 
+								<p>Кирбаc </p>
+								</div>
+								<a href="#" >
+									<p id="tovarimg"> <img src="img/tovar/tovar.jpeg" alt="Ковер" /></p>
+									
+									
+								
+								<div class="iproductinfo">
+									<p>Цена: <span>500</span>р.</p>
+									<p>Форма: <span>квадратная</span></p>
+									<p>Способ пр: <span>ручной</span></p>
+									<p>Ворс: <span>шерсть</span></p>
+									<p>Ширина: <span>2</span>м.</p>
+									<p>Высота: <span>3</span>м.</p>
+									<p>Артикул:№ <span>54758</span></p>
+									</a>
+									
+								</div>
+									<p> <a href="#"><div class="vkorziny"> <span>В корзину</span></div><a/></p>								
+								</div>
+							</td>
+							
+							<td >
+								<div class="iproduct">
+								<div class="iproductoption"> 
+								<p>Кирбаc </p>
+								</div>
+								<a href="#" >
+									<p id="tovarimg"> <img src="img/tovar/tovar.jpeg" alt="Ковер" /></p>
+									
+									
+								
+								<div class="iproductinfo">
+									<p>Цена: <span>500</span>р.</p>
+									<p>Форма: <span>квадратная</span></p>
+									<p>Способ пр: <span>ручной</span></p>
+									<p>Ворс: <span>шерсть</span></p>
+									<p>Ширина: <span>2</span>м.</p>
+									<p>Высота: <span>3</span>м.</p>
+									<p>Артикул:№ <span>54758</span></p>
+									</a>
+									
+								</div>
+									<p> <a href="#"><div class="vkorziny"> <span>В корзину</span></div><a/></p>								
+								</div>
+							</td>
+							<td >
+								<div class="iproduct">
+								<div class="iproductoption"> 
+								<p>Кирбаc </p>
+								</div>
+								<a href="#" >
+									<p id="tovarimg"> <img src="img/tovar/tovar.jpeg" alt="Ковер" /></p>
+									
+									
+								
+								<div class="iproductinfo">
+									<p>Цена: <span>500</span>р.</p>
+									<p>Форма: <span>квадратная</span></p>
+									<p>Способ пр: <span>ручной</span></p>
+									<p>Ворс: <span>шерсть</span></p>
+									<p>Ширина: <span>2</span>м.</p>
+									<p>Высота: <span>3</span>м.</p>
+									<p>Артикул:№ <span>54758</span></p>
+									</a>
+									
+								</div>
+									<p> <a href="#"><div class="vkorziny"> <span>В корзину</span></div><a/></p>								
+								</div>
+							</td>
+
+						</tr>
+						
+						<tr>
+						
+							<td >
+								<div class="iproduct">
+								<div class="iproductoption"> 
+								<p>Кирбаc </p>
+								</div>
+								<a href="#" >
+									<p id="tovarimg"> <img src="img/tovar/tovar.jpeg" alt="Ковер" /></p>
+									
+									
+								
+								<div class="iproductinfo">
+									<p>Цена: <span>500</span>р.</p>
+									<p>Форма: <span>квадратная</span></p>
+									<p>Способ пр: <span>ручной</span></p>
+									<p>Ворс: <span>шерсть</span></p>
+									<p>Ширина: <span>2</span>м.</p>
+									<p>Высота: <span>3</span>м.</p>
+									<p>Артикул:№ <span>54758</span></p>
+									</a>
+									
+								</div>
+									<p> <a href="#"><div class="vkorziny"> <span>В корзину</span></div><a/></p>								
+								</div>
+							</td>
+							
+							<td >
+								<div class="iproduct">
+								<div class="iproductoption"> 
+								<p>Кирбаc </p>
+								</div>
+								<a href="#" >
+									<p id="tovarimg"> <img src="img/tovar/tovar.jpeg" alt="Ковер" /></p>
+									
+									
+								
+								<div class="iproductinfo">
+									<p>Цена: <span>500</span>р.</p>
+									<p>Форма: <span>квадратная</span></p>
+									<p>Способ пр: <span>ручной</span></p>
+									<p>Ворс: <span>шерсть</span></p>
+									<p>Ширина: <span>2</span>м.</p>
+									<p>Высота: <span>3</span>м.</p>
+									<p>Артикул:№ <span>54758</span></p>
+									</a>
+									
+								</div>
+									<p> <a href="#"><div class="vkorziny"> <span>В корзину</span></div><a/></p>								
+								</div>
+							</td>
+							<td >
+								<div class="iproduct">
+								<div class="iproductoption"> 
+								<p>Кирбаc </p>
+								</div>
+								<a href="#" >
+									<p id="tovarimg"> <img src="img/tovar/tovar.jpeg" alt="Ковер" /></p>
+									
+									
+								
+								<div class="iproductinfo">
+									<p>Цена: <span>500</span>р.</p>
+									<p>Форма: <span>квадратная</span></p>
+									<p>Способ пр: <span>ручной</span></p>
+									<p>Ворс: <span>шерсть</span></p>
+									<p>Ширина: <span>2</span>м.</p>
+									<p>Высота: <span>3</span>м.</p>
+									<p>Артикул:№ <span>54758</span></p>
+									</a>
+									
+								</div>
+									<p> <a href="#"><div class="vkorziny"> <span>В корзину</span></div><a/></p>								
+								</div>
+							</td>
+							
+						</tr>
+						
+						
+						
+						</table>
+					
+					<div class="clear"></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		
+		<div id="footer">
+		
+			<div class="copy">
+				<p>Copyright &copy; kover-ideal.ru. Все права защищены.</p>
+			</div>
+			
+		</div>
+	</div>
+</div>
+</body>
+
+</html>
