@@ -1,12 +1,11 @@
-
+234
 body {
 	background-repeat:repeat;
 	font-family: "Times New Roman" , Arial,  sans-serif;
 	font-size: 90%;
 	margin: 0;
 	padding: 0; 
-	
-	4234
+
 }
 body  {
 	background:url("../img/bg.png");;
@@ -407,4 +406,4 @@ body p {
 .copy {
 	background:url("../img/zv.png");
 	border-radius:10px;
-}
+}        
